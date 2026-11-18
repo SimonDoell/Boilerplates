@@ -30,7 +30,7 @@ target_compile_options(main PRIVATE
     -Wwrite-strings
     -fanalyzer
 
-    -Wno-unused
+    # -Wno-unused
 )
 
 target_compile_options(main PRIVATE
