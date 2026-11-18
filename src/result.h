@@ -6,6 +6,8 @@ typedef enum {
     RESULT_ERROR_INVALID_ARGUMENT      = 1,
     RESULT_ERROR_INDEX_OUT_OR_RANGE    = 2,
     RESULT_ERROR_DIVISION_BY_ZERO      = 3,
+    RESULT_ERROR_NULL_POINTER_ARGUMENT = 4,
+    RESULT_ERROR_FAILED_FUNCTION_CALL  = 5,
 } Result;
 
 #if defined(__GNUC__) || defined(__clang__)

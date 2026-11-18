@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include <stddef.h>
 
 #ifndef TYPES_H
 #define TYPES_H
@@ -16,7 +17,6 @@ typedef int64_t  i64;
 typedef float  f32;
 typedef double f64;
 
-typedef intptr_t  isize;
-typedef uintptr_t usize;
+typedef size_t usize;
 
 #endif
