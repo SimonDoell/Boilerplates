@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include "types.h"
 #include "debug.h"
+#include "result.h"
 
 int main(void) {
-    (void)c_assert(true);
     printf("Hello, World!\n");
     return 0;
 }

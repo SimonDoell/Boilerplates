@@ -29,6 +29,8 @@ target_compile_options(main PRIVATE
     -Wcast-qual
     -Wwrite-strings
     -fanalyzer
+
+    -Wno-unused
 )
 
 target_compile_options(main PRIVATE
